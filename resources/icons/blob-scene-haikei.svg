@@ -1,0 +1,44 @@
+<svg id="visual" viewBox="0 0 2560 1440" width="2560" height="1440"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <rect x="0" y="0" width="2560" height="1440" fill="#13131A"></rect>
+    <defs>
+        <linearGradient id="grad1_0" x1="43.8%" y1="0%" x2="100%" y2="100%">
+            <stop offset="14.444444444444446%" stop-color="#9ca2dd" stop-opacity="1"></stop>
+            <stop offset="85.55555555555554%" stop-color="#9ca2dd" stop-opacity="1"></stop>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="grad1_1" x1="43.8%" y1="0%" x2="100%" y2="100%">
+            <stop offset="14.444444444444446%" stop-color="#9ca2dd" stop-opacity="1"></stop>
+            <stop offset="85.55555555555554%" stop-color="#13131a" stop-opacity="1"></stop>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="grad2_0" x1="0%" y1="0%" x2="56.3%" y2="100%">
+            <stop offset="14.444444444444446%" stop-color="#9ca2dd" stop-opacity="1"></stop>
+            <stop offset="85.55555555555554%" stop-color="#9ca2dd" stop-opacity="1"></stop>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="grad2_1" x1="0%" y1="0%" x2="56.3%" y2="100%">
+            <stop offset="14.444444444444446%" stop-color="#13131a" stop-opacity="1"></stop>
+            <stop offset="85.55555555555554%" stop-color="#9ca2dd" stop-opacity="1"></stop>
+        </linearGradient>
+    </defs>
+    <g transform="translate(2560, 0)">
+        <path
+            d="M0 576C-102.8 562.1 -205.6 548.2 -288 498.8C-370.4 449.4 -432.6 364.6 -477.2 275.5C-521.8 186.4 -548.9 93.2 -576 0L0 0Z"
+            fill="#535574"></path>
+        <path
+            d="M0 288C-51.4 281.1 -102.8 274.1 -144 249.4C-185.2 224.7 -216.3 182.3 -238.6 137.8C-260.9 93.2 -274.4 46.6 -288 0L0 0Z"
+            fill="#9ca2dd"></path>
+    </g>
+    <g transform="translate(0, 1440)">
+        <path
+            d="M0 -576C94.6 -551.2 189.1 -526.4 278 -481.5C366.9 -436.6 450.1 -371.6 498.8 -288C547.6 -204.4 561.8 -102.2 576 0L0 0Z"
+            fill="#535574"></path>
+        <path
+            d="M0 -288C47.3 -275.6 94.6 -263.2 139 -240.8C183.4 -218.3 225.1 -185.8 249.4 -144C273.8 -102.2 280.9 -51.1 288 0L0 0Z"
+            fill="#9ca2dd"></path>
+    </g>
+</svg>

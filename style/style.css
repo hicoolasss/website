@@ -18,6 +18,27 @@
     font-display: swap;
 } */
 
+.outline {
+    outline: 1px red dashed;
+}
+
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: "JetBrains Mono";
+    color: #B1BAE6;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 400;
+    background: #13131A;
+    /* overflow: hidden; */
+    position: relative;
+
+
+    
+}
+
 .nav {
     width: 305px;
     height: 75px;
@@ -30,31 +51,64 @@
     z-index: 99;
     display: flex;
     margin-top: 2em;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     transform: translate(-50%, 0);
-    font-size: 2rem;
-    background: linear-gradient(90deg, #09203f, #537895);
-    opacity: 50%;
-    /* border-radius: 25px; */
+    font-size: 1rem;
+    background-image: linear-gradient(-20deg, rgba(43, 88, 118, 0.5)0%, rgba(78, 67, 118, 0.5) 100%);
     border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
-	border-top-right-radius: 25px;
-	border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
-.header {
-    color: red;
+.home_icon {
+    /* outline: 1px red dashed; */
+    margin-top: 5px;
+    cursor: pointer;
+    left: 15px;
 }
 
-body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #181818;
-    font-family: 'General Sans', sans-serif;
-    color: #eeebdd;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    font-weight: 400;
-    background: #13131A;
+.nav_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.nav_container_link {
+    transition: all 0.3s;
+}
+
+.nav_container_link:hover {
+    color: #8385d1;
+    cursor: pointer;
+}
+
+.blob1 {
+    position: absolute;
+    left: 10px;
+    top: 980px;
+
+    outline: 1px red dashed;
+
+}
+
+.blob2 {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    outline: 1px red dashed;
+
+}
+
+.blob_scene {
+    position: absolute;
+    margin: 0px;
 }
